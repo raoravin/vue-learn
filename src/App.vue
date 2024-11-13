@@ -33,7 +33,10 @@ const imageInfo = {
 
 
 
-<script setup>
+
+<!-- styling -->
+
+<!-- <script setup>
 import GlobalStyle from "./components/GlobalStyling.vue"
 import LocalStyle from "./components/LocalStyling.vue"
 import ModuleStyle from "./components/ModuleStyle.vue"
@@ -46,4 +49,14 @@ import ModuleStyle from "./components/ModuleStyle.vue"
   <GlobalStyle/>
   <LocalStyle/>
   <ModuleStyle/>
+</template> -->
+
+
+
+<script setup>
+import MyEvent from "./components/MyEvent.vue"
+</script>
+
+<template>
+  <MyEvent/>
 </template>
