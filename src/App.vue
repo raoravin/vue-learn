@@ -36,6 +36,7 @@ const imageInfo = {
 <script setup>
 import GlobalStyle from "./components/GlobalStyling.vue"
 import LocalStyle from "./components/LocalStyling.vue"
+import ModuleStyle from "./components/ModuleStyle.vue"
 
 
 </script>
@@ -44,4 +45,5 @@ import LocalStyle from "./components/LocalStyling.vue"
 <template>
   <GlobalStyle/>
   <LocalStyle/>
+  <ModuleStyle/>
 </template>
